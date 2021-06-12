@@ -1,4 +1,4 @@
-<div style="direction:rtl">
+<div dir="rtl">
 
 # [sli.dev](https://sli.dev)
 
@@ -16,12 +16,16 @@
 
 ## راه اندازی سرور به صورت لوکال
 
+<div dir="ltr">
+
 ```
 npm i -g pnpm
 
 pnpm i
 pnpm run dev
 ```
+
+</div>
 
 سپس به ادرس  `http://localhost:3000` بروید
 
