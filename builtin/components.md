@@ -1,17 +1,33 @@
-# Components
+<div dir="rtl">
 
-## Built-in Components
+# کامپوننت ها
 
-> The documentations of this section is still working in progress. Before that, you can take a look at the [source code](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin) directly.
+## کامپوننت های توکار
 
-## Custom Components
+> این قسمت از مستندات در حال تکمیل است . میتوانید رجوع کنید به 
+[source code](https://github.com/slidevjs/slidev/blob/main/packages/client/builtin)
 
-Create a directory `components/` under your project root, and simply put your custom Vue components under it, then you can use it with the same name in your markdown file!
+## کامپوننت های شخصی
 
-Read more in the [Customization](/custom/directory-structure#components) section.
+در مسیر root
+پروژه خود یک پوشه به نام
+`components/`
+بسازید
+و خیلی ساده 
+Vue component
+های خود را درون ان قرار دهید ,
+سپس میتوانید انهارا با همان نام در فایل های
+markdown
+خود استفاده کنید
 
-## Theme-provided Components
+همچنین بیشتر بخوانید :
+[شخصی سازی](/custom/directory-structure#components)
 
-Themes can provide components as well. Please read their documentations for what they have provided.
+## کامپوننت های Theme-provided 
 
-Check more in the [directory structure](/custom/directory-structure) section.
+تم ها می توانند کامپوننت هایی را نیز فراهم کنند. لطفاً داکیومنت های آنها را برای آنچه ارائه داده اند مطالعه كنید.
+
+همچنین بیشتر بخوانید در :
+[directory structure](/custom/directory-structure) 
+
+</div>
