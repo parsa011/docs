@@ -1,10 +1,12 @@
+<div style="direction:rtl">
+
 # [sli.dev](https://sli.dev)
 
-Documentation for [Slidev](https://github.com/slidevjs/slidev)
+مستندات [Slidev](https://github.com/slidevjs/slidev)
 
-## Translations
+## ترجمه های دیگر
 
-| | Repo | Site | Maintainers |
+| | Repo | سایت | ویرایش کننده |
 |---|---|---:|---|
 | English | [docs](https://github.com/slidevjs/docs) | [sli.dev](https://sli.dev) | [@antfu](https://github.com/antfu) |
 | 简体中文 | [docs-cn](https://github.com/slidevjs/docs-cn) | [cn.sli.dev](https://cn.sli.dev) | [@QC-L](https://github.com/QC-L) [@Ivocin](https://github.com/Ivocin) |
@@ -12,7 +14,7 @@ Documentation for [Slidev](https://github.com/slidevjs/slidev)
 | Español | [docs-es](https://github.com/slidevjs/docs-es) | [es.sli.dev](https://es.sli.dev) | [@owlnai](https://github.com/owlnai) |
 | Русский | [docs-ru](https://github.com/slidevjs/docs-ru) | [ru.sli.dev](https://ru.sli.dev) | [@xesjkeee](https://github.com/xesjkeee) |
 
-## Start Server Locally
+## راه اندازی سرور به صورت لوکال
 
 ```
 npm i -g pnpm
@@ -21,28 +23,55 @@ pnpm i
 pnpm run dev
 ```
 
-And then visit `http://localhost:3000`
+سپس به ادرس  `http://localhost:3000` بروید
 
-Or install the [Vite extension for VS Code](https://marketplace.visualstudio.com/items?itemName=antfu.vite) to edit side-by-side.
+با نصب افزونه [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)
+میتوانید به صورت
+side-by-side
+ویرایش کنید
 
-## Help on Translating
+## کمک به ترجمه
 
 <!-- For translations maintainers: You don't need to translate this port -->
 
-First of all, thank you for being interested in contributing to translations!
+اول از همه , سپاسگزاریم بابت اینکه مشتاق به ترجمه هستید
 
-You can find the repositories for each existing translation above. To help improve them, simply sending a Pull Request to their repo.
+شما میتوانید ترجمه های موجود را از لیست بالا پیدا کنید . با ارسال pull request به آسانی میتوانید به آنها بهبود ببخشید 
 
-If the language you want to contribute isn't on the list, 
+اگر زبانی که میخواهید روی آن کار کنید ولی در لیست بالا موجود نبود کار های زیر را انجام دهید :
 
-- Join [our Discord server](https://chat.sli.dev), and find the `#translations` channel to see if someone is already working on the language you want, consider joining them and translate together. If not, you can start a new translation project with the following steps.
-- Fork the main docs repo: [slidevjs/docs](https://github.com/slidevjs/docs)
-- Start doing the translation by replacing the English text in-place.
-- Share your repo's link to the `#translations` channel telling people you are working on it and find collaborators.
-- When you finish the translation (at least 90%), `@antfu` in the Discord and we will invite you to the org and make the translation official.
-- Once the transferring is done, we will set up the subdomain, auto-deployment, and a daily sync-up bot to keep the translation up-to-date with the latest English docs.
-- The site is live, and we will send a shout-out tweet on [our Twitter account](https://twitter.com/Slidevjs).
+- ابتدا [عضو سرور دیسکورد ما شوید](https://chat.sli.dev) سپس , در کانال
+`#translations`
+ ببینید کسی در حال ترجمه زبان مورد نظر شما هست یا خیر .
+در صورت نبودن میتوانید با کارهای زیر ترجمه خود را شروع کنید
 
-[Working-in-progress translation list](https://discord.com/channels/851817370623410197/851822360955977760/852614294017146900)
+- ریپوی اصلی مستندات را fork کنید : 
+[slidevjs/docs](https://github.com/slidevjs/)
 
-Thanks again!
+- با جایگزاری متون انگلیسی ترجمه خود را شروع کنید
+
+- لینک ریپوی خود را در کانال
+`#translations`
+به اشتراک بگذارید تا به بقیه افراد مشتاق اطلاع رسانی شود
+
+- وقتی کار ترجمه شما به پایان رسید 
+(حداقل ۹۰ درصد ان)
+, `@antfu`
+از شما دعوت میکنید تا ترجمه نهایی را انتشار دهید
+
+- هنگامی که انتقال کامل شد , یک ساب دومین برای شما ساخته میشود
+به همراه 
+auto-deployment ,
+و بات همگام سازی روزانه
+تا ترجمه ها مطابق با اخرین مستندات انگلیسی به روز شوند
+
+- اکنون سایت راه اندازی شده , ما با یک توییت 
+در 
+[در اکانت توییترمان](https://twitter.com/Slidevjs)
+به همه اطلاع رسانی میکنیم
+
+[لیست ترجمه های در حال انجام](https://discord.com/channels/851817370623410197/851822360955977760/852614294017146900)
+
+سپساگزارم
+
+</div>
