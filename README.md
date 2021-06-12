@@ -1,4 +1,4 @@
-<div style="direction:rtl">
+<div dir="rtl">
 
 # [sli.dev](https://sli.dev)
 
